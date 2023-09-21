@@ -55,13 +55,29 @@ article{
 }
 #history{
     width: 50%;
+    padding-left: 20px;
 }
 #history h1{
     font-size: 100px;
     margin-bottom: 0;
 }
 #history p{
+    width: 50%;   
+}
+#circle-links{
+    display: flex;
+    flex-direction: row;
     width: 50%;
+    
+}
+.circle{
+  background: red;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 40px;
+  margin-left: 20px;
 }
 #img{
     width: 50%;
@@ -70,6 +86,6 @@ article{
 #img img{
     width: 500px;
     border-radius: 50%;
-    padding-left: ;
+    
     
 }
